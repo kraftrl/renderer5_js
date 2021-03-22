@@ -11,13 +11,13 @@ What's missing from the JavaScript code are all the Javadoc (or JSDoc or TSDoc) 
 
 
 Here is what needs to be done, in decreasing order of importance.
- 1.) Translate to TypeScript.
- 2.) Add the TypeScrip code for renderers 6 and 7.
- 3.) Add the TypeScript code for clipping, rasterization, and the framebuffer.
- 4.) Add the debugging output code.
- 5.) Convert Javadoc comments to TSDoc comments.
- 6.) Use Node.js to save ppm files (and create offline movies).
- 7.) Add more models (in particular, obj models).
+1. Translate to TypeScript.
+2. Add the TypeScrip code for renderers 6 and 7.
+3. Add the TypeScript code for clipping, rasterization, and the framebuffer.
+4. Add the debugging output code.
+5. Convert Javadoc comments to TSDoc comments.
+6. Use Node.js to save ppm files (and create offline movies).
+7. Add more models (in particular, obj models).
 
 
 The TypeScript compiler will let you mix JavaScript code with TypeScript code. This is supposed to be used when converting a JavaScript project to TypeScript so you can do the translation incrementally. The relevant compiler option is "allowJS" and you put that in the tsconfig.json file.
