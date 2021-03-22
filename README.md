@@ -21,15 +21,15 @@ Here is what needs to be done, in decreasing order of importance.
 
 
 The TypeScript compiler will let you mix JavaScript code with TypeScript code. This is supposed to be used when converting a JavaScript project to TypeScript so you can do the translation incrementally. The relevant compiler option is "allowJS" and you put that in the tsconfig.json file.
-{
-   "compilerOptions": {
-      "allowJS" : true,
-      "target": "es2020",
-      "strict": true,
-      "sourceMap": true,
-      "noImplictAny" : true
-   }
-}
+    {
+       "compilerOptions": {
+          "allowJS" : true,
+          "target": "es2020",
+          "strict": true,
+          "sourceMap": true,
+          "noImplictAny" : true
+       }
+    }
 https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
 https://www.typescriptlang.org/tsconfig
 https://www.typescriptlang.org/docs/handbook/compiler-options.html
